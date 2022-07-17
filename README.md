@@ -1,6 +1,20 @@
 # MDBDict
 MDBDict allows you to access MongoDB databases through an automatically updating dictionary
 
+## Installation
+To install, run the following command:
+```
+pip install mdbdict
+```
+
+Alternatively, you can download the source code and install it yourself:
+```
+git clone https://github.com/trigtbh/mdbdict.git
+cd mdbdict
+pip install -r requirements.txt
+python setup.py install
+```
+---
 ## Usage
 
 ### Opening a cluster
@@ -18,7 +32,7 @@ collection = db['database']['collection'] # Collections are treated as lists of 
 # The second key is the name of the specific collection within the database
 print(collection)
 ```
-
+---
 ### Adding a document to a collection
 
 ```python
