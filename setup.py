@@ -7,7 +7,7 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="MDBDict",
-    version="1.0.3",
+    version="1.0.4",
     description="A wrapper for Pymongo that turns clusters into auto-updating dictionaries",
     long_description=long_description,
     long_description_content_type="text/markdown",
