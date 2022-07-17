@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/MDBDict.egg-info/PKG-INFO
+src/MDBDict.egg-info/SOURCES.txt
+src/MDBDict.egg-info/dependency_links.txt
+src/MDBDict.egg-info/requires.txt
+src/MDBDict.egg-info/top_level.txt
+src/mdbdict/__init__.py
